@@ -20,7 +20,8 @@ spec:
   - key: staging
   - key: production
   ingress:
-    domain: ""
+    # andy-manastorm.com is not known to any authoritative dns servers
+    domain: "andy-manastorm.com"
     externalDNS: false
     namespaceSubDomain: -jx.
     tls:
